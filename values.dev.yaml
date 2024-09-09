@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: jcr.nguiland.org/docker-local/com.optimagrowth/eureka-service
+  repository: jcr.nguiland.org/docker-local/org.nguiland/eureka-service
   pullPolicy: Always
   tag: 0.0.1-SNAPSHOT
 imagePullSecrets: []
@@ -12,7 +12,7 @@ serviceAccount:
   annotations: {}
   name: ''
 podAnnotations:
-  appCommitId: c1928c3f62342c6e404a1c54464c34586cb6a8fa
+  appCommitId: 56569f761cbfd0dd75009e9764de9c5ec2456ef7
 podLabels: {}
 podSecurityContext: {}
 securityContext: {}
